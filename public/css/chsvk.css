@@ -1,0 +1,189 @@
+.customServices{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+}
+
+.customService{
+    height: 100%;
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #DCDCDC;
+}
+
+.customService > img{
+    height: 90px;
+    width: auto;
+    display:block;
+    padding: 0 1em;
+    margin:auto;
+}
+
+.serviceHead{
+    margin: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.aboutUsCustom > h3{
+    font-size: 2em;
+}
+
+.aboutUsCustom > p{
+    line-height: 35px;
+    font-size: 1.3em;
+}
+
+.serviceText{
+    margin: 1em;
+    text-align: center;
+}
+
+.active-team-member{
+    margin-left: 13vw;
+}
+
+
+.blog_item_chsvk{
+    border: 1px solid #DCDCDC;
+}
+
+
+@media screen and (max-width: 600px) {
+    .customServices{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .active-team-member{
+        margin-left: 0;
+    }
+  }
+
+
+/* Careers Page */
+
+.careers{
+    margin-top: 3%;
+}
+
+.careers > .flex{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.careers > h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.careers > .flex > form {
+    margin-top: 15vh;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    /* Home Page */
+
+    .team-members{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Careers */
+
+    .careers > .flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .careers {
+        margin-top: 7vh;
+    }
+
+    .careers > h3{
+        line-height: 40px;
+    }
+
+    .careers_image{
+        height: 300px;
+    }
+
+    .careers > .flex > form {
+        margin-top: 7vh;
+    }
+
+    .careers > .flex > form > input {
+        width: 90vw;
+    }
+
+    .careers > .flex > form > textarea {
+        width: 90vw;
+    }
+
+    .careers > .flex > form {
+        margin-left: 5vw;
+    }
+  }
+
+
+@media only screen and (min-width: 600px){
+    .team-members{
+        width: 40vw;
+        /* margin-left: 2.3vw; */
+        display: flex;
+        flex-direction: row;
+    }
+    .team-member{
+        width: 40vw;
+    }
+
+    .careers_image{
+        height: 40vh;
+    }
+    input{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .team-members{
+        width: 40vw;
+        /* margin-left: 2.3vw; */
+        display: flex;
+        flex-direction: row;
+    }
+    .team-member{
+        width: 40vw;
+    }
+
+    .careers_image{
+        height: 40vh;
+    }
+    input{
+        width: 100%;
+    }
+}
+
+/* IPAD LANDSCAPE */
+
+@media only screen and (min-width: 990px) and (min-height: 700px){
+    .section_two_logo{
+        height: 20vh !important;
+        padding-right: 3em !important ;
+    }
+    .about_descrption{
+        margin-top: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 990px) and (min-height: 920px){
+}
+
+@media only screen and (min-width: 990px) and (min-height: 700px){
+    .section_two_logo{
+        height: 20vh !important;
+        padding-right: 3em !important ;
+    }
+}

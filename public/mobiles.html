@@ -1,0 +1,278 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Annapoorna</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="./images/custom/logo for tab.png">
+
+    <!-- All CSS Files -->
+    <!-- Bootstrap fremwork main css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Nivo-slider css -->
+    <link rel="stylesheet" href="lib/css/nivo-slider.css">
+    <!-- This core.css file contents all plugings css file. -->
+    <link rel="stylesheet" href="css/core.css">
+    <!-- Theme shortcodes/elements style -->
+    <link rel="stylesheet" href="css/shortcode/shortcodes.css">
+    <!-- Theme main style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Template color css -->
+    <link href="css/color/color-core.css" data-style="styles" rel="stylesheet">
+    <!-- User style -->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="./css/chsvk.css">
+
+
+    <!-- Modernizr JS -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->  
+
+    <!-- Body main wrapper start -->
+    <div class="wrapper">
+
+        <div w3-include-html="header.html"></div>
+        
+        <section class="container">
+            <h2 style="font-weight: bold; text-align: center; margin: 1em; margin-top: 5vh;">Mobile Phones</h2>
+            <section style="margin-top: 5vh;" id="productsSection" class="container">
+                    <div class="row">
+                        <div v-for="(l,index) in products" class="col-md-2 col-sm-6 col-xs-12">
+                            <a :href="l.link">
+                                <div class="blog-item">
+                                    <img style="height: 80px; width: auto; display: block; margin: 0 auto;" :src="l.url" alt="">
+                                </div>
+                                <p style="text-align: center; margin-top: 0.6em;">{{l.name}}</p>
+                                <hr>
+                            </a>
+                        </div>
+                    </div>
+        </section>
+        </section>
+        <div w3-include-html="footer.html"></div>
+
+        <!-- END FOOTER AREA -->
+
+    </div>
+    <!-- Body main wrapper end -->
+
+
+    <!-- Placed JS at the end of the document so the pages load faster -->
+    <script src="./js/chsvk.js"></script>
+    <!-- jquery latest version -->
+    <script src="js/vendor/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap framework js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- jquery.nivo.slider js -->
+    <script src="lib/js/jquery.nivo.slider.js"></script>
+    <!-- All js plugins included in this file. -->
+    <script src="js/plugins.js"></script>
+    <!-- Main js file that contents all jQuery plugins activation. -->
+    <script src="js/main.js"></script>
+    <script>
+        magic();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+    <script>
+         var app = new Vue({
+        el: '#productsSection',
+        data: {
+            products: [
+  {
+    "name": "Redmi K20 Pro",
+    "link": "https://www.mi.com/in/redmi-k20-pro/",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/8DBB46F8-FB58-FC15-14FD-A7D2789B165D.jpg.png?alt=media&token=79c5ed61-f189-4892-9fae-111e6c0caf85"
+  },
+  {
+    "name": "Redmi K20",
+    "link": "https://www.mi.com/in/redmi-k20/",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/00635EAF-E1E1-7A6D-88DF-B7CFD5E82DCE.jpg?alt=media&token=14ef92ea-25f2-443b-8dd8-48dd869f0be9"
+  },
+  {
+    "name": "Redmi Note 8 Pro",
+    "link": "https://www.mi.com/in/redmi-note-8-pro/",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Redmi%20Note%208%20Pro.jpg?alt=media&token=fd125e2f-d99f-42e8-a7c2-85046c2ec560"
+  },
+  {
+    "name": "Redmi Note 8",
+    "link": "https://www.mi.com/in/redmi-note-8/",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Redmi%20Note%208.jpg?alt=media&token=7051d658-5b5b-453f-a3c0-9ebc4aab4a0e"
+  },
+  {
+    "name": "Redmi Note 7 Pro",
+    "link": "https://www.mi.com/in/redmi-note-7-pro/?RNType=product&product_id=redmi-note-7-pro",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Redmi%20Note%207%20Pro.png?alt=media&token=6ec5d8f9-b2d6-4ae5-a985-b2e90866ab85"
+  },
+  {
+    "name": "Redmi A3",
+    "link": "https://www.mi.com/in/mi-a3/",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/MI%20A3.png?alt=media&token=4ca87a0d-d196-44b9-82ea-58d06e356b27"
+  },
+  {
+    "name": "Redmi Note 7S",
+    "link": "https://www.mi.com/in/redmi-note-7s/?RNType=product&product_id=redmi-note-7s",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Redmi%20Note%207S.jpg?alt=media&token=fd350d66-00c6-4f47-ad43-7895768fbcc4"
+  },
+  {
+    "name": "Redmi Y3",
+    "link": "https://www.mi.com/in/redmi-y3/?RNType=product&product_id=redmi-y3",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Redmi%20Y3.png?alt=media&token=f628d05a-2167-4581-9b0b-20f83c1f206f"
+  },
+  {
+    "name": "Redmi 8",
+    "link": "https://www.mi.com/in/redmi-8/",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Redmi%208.png?alt=media&token=fdf0723b-c237-47b8-9cdc-27030350d15a"
+  },
+  {
+    "name": "Redmi 8A",
+    "link": "https://www.mi.com/in/redmi-8a/",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Redmi%208A.jpg?alt=media&token=d863fe19-c939-4f73-be9c-0c3c714aa48c"
+  },
+  {
+    "name": "Redmi 7",
+    "link": "https://www.mi.com/in/redmi-7/?RNType=product&product_id=redmi-7",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Redmi%207.png?alt=media&token=5b5aff77-f080-45bc-8c42-e5be7952c2ec"
+  },
+  {
+    "name": "Redmi 7A",
+    "link": "https://www.mi.com/in/redmi-7a/",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Redmi%207A.jpg?alt=media&token=3973f9d0-6cf8-4c3d-aac4-2b2747cb0386"
+  },
+  {
+    "name": "Redmi Note 7",
+    "link": "https://www.mi.com/in/redmi-note-7/?RNType=product&product_id=redmi-note7",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Redmi%20Note%207.jpg?alt=media&token=5e17653b-ded2-49eb-8f8f-ce513ce5a11d"
+  },
+  {
+    "name": "Redmi Go",
+    "link": "https://www.mi.com/in/redmi-go/?RNType=product&product_id=redmi-go",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Redmi%20Go.png?alt=media&token=8f946b42-87e9-4a60-a2f3-4434eee2f89c"
+  },
+  {
+    "name": "Redmi Note 6 Pro",
+    "link": "https://www.mi.com/in/redmi-note-6-pro/?RNType=product&product_id=redmi-note-6-pro",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Redmi%20Note%206%20Pro.jpg?alt=media&token=f4037c7e-f0d5-4b7f-bb3a-52fb71d2ad98"
+  },
+  {
+    "name": "Mi A2",
+    "link": "https://www.mi.com/in/mi-a2/?RNType=product&product_id=mi-a2",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/MI%20A2.png?alt=media&token=3ae3a962-3ce4-4581-9c35-6d584af7881f"
+  },
+  {
+    "name": "MI Mix 2",
+    "link": "https://www.mi.com/in/mix2/?RNType=product&product_id=mix2",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/MI%20Mix%202.png?alt=media&token=15b2fe32-7574-4333-a3b2-d84d1f18914f"
+  },
+  {
+    "name": "Poco F1",
+    "link": "https://www.mi.com/in/poco-f1/?RNType=product&product_id=poco-f1",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Poco%20F1.jpg?alt=media&token=352e7510-c590-4683-861c-eeca6119e45d"
+  },
+  {
+    "name": "Redmi 6 Pro",
+    "link": "https://www.mi.com/in/redmi-6-pro/?RNType=product&product_id=redmi-6-pro",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Redmi%206%20Pro.png?alt=media&token=b15f890f-df5f-452b-9627-31577e534407"
+  },
+  {
+    "name": "Redmi 6",
+    "link": "https://www.mi.com/in/redmi-6/?RNType=product&product_id=redmi-6",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Redmi%206.png?alt=media&token=c864349d-8d60-439c-b909-23aef70f282f"
+  },
+  {
+    "name": "Redmi 6A",
+    "link": "https://www.mi.com/in/redmi-6a/?RNType=product&product_id=redmi-6a",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Redmi%206A.png?alt=media&token=c1ca6a95-30f5-41ae-978a-9e9d2aa58fe9"
+  },
+  {
+    "name": "Redmi Y2",
+    "link": "https://www.mi.com/in/redmi-y2/?RNType=product&product_id=redmi-y2",
+    "url": "https://firebasestorage.googleapis.com/v0/b/annapoorna-website.appspot.com/o/Redmi%20Y2.jpg?alt=media&token=d79d57c2-6525-40ed-945e-fd0039e6b9f7"
+  }
+]
+        }
+         })
+    </script>
+</body>
+
+</html>
+
+<style>
+
+
+    .flex{
+        display: flex;
+    }
+
+    .zmdi{
+        font-size: 3em;
+        margin-right: 1em;
+    }
+
+    
+@media only screen and (min-width: 300px){
+    .available{
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        border-top: 20px solid lightgray;
+        border-bottom: 20px solid lightgray;
+    }
+    .careerOption{
+        padding: 1.5em;
+        text-align: center;
+    }
+
+    .careerOption > .flex{
+        margin-left: 10%s;
+    }
+}
+@media only screen and (min-width: 600px){
+    .available{
+        display: flex;
+        width: 100vw;
+        flex-direction: row;
+        border-top: 20px solid lightgray;
+        border-bottom: 20px solid lightgray;
+        justify-content: space-between;
+        padding: 0 10vw;
+    }
+    .careerOption{
+        padding: 1.5em;
+        text-align: left;
+    }
+    .careerOption > hr{
+        display: none;
+    }
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 16px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+    
+</style>

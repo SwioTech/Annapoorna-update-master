@@ -1,0 +1,1655 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Partners || Annapoorna</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="./images/custom/logo for tab.png">
+
+    <!-- All CSS Files -->
+    <!-- Bootstrap fremwork main css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Nivo-slider css -->
+    <link rel="stylesheet" href="lib/css/nivo-slider.css">
+    <!-- This core.css file contents all plugings css file. -->
+    <link rel="stylesheet" href="css/core.css">
+    <!-- Theme shortcodes/elements style -->
+    <link rel="stylesheet" href="css/shortcode/shortcodes.css">
+    <!-- Theme main style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Template color css -->
+    <link href="css/color/color-core.css" data-style="styles" rel="stylesheet">
+    <!-- User style -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizr JS -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->  
+
+    <!-- Body main wrapper start -->
+    <div class="wrapper">
+
+        <div w3-include-html="header.html"></div>
+
+
+        <!-- Start page content -->
+        <section id="page-content" class="page-wrapper"> 
+            <div class="flex mapsFlex">
+              <div id="map"></div>
+              <section id="sideBox">
+                <h3 style="text-align: center; margin: 1em;">All Partners</h3>
+                <div v-for="(l,index) in locations" :key="index" class="detailBox">
+                    <p style="color: black;">{{l['retailerName']}}</p style="color: black;">
+                    <p style="color: black;">{{l['phone']}}</p>
+                    <p style="color: black;">{{l['adderss']}}</p>
+                    <hr>
+                </div>
+              </section>
+            </div>
+        </section>
+        
+        <!-- START FOOTER AREA -->
+        <div w3-include-html="footer.html"></div>
+
+        <!-- END FOOTER AREA --> 
+    </div>
+    <!-- Body main wrapper end -->
+
+
+    <!-- Placed JS at the end of the document so the pages load faster -->
+    <script src="./js/chsvk.js"></script>
+    <!-- jquery latest version -->
+    <script src="js/vendor/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap framework js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- jquery.nivo.slider js -->
+    <script src="lib/js/jquery.nivo.slider.js"></script>
+    <!-- Google Map js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6wwaUldqmrXizl_0XDoZbNHYYDjuJexY"></script>
+    <script src="js/map.js"></script>
+    <!-- All js plugins included in this file. -->
+    <script src="js/plugins.js"></script>
+    <!-- ajax-mail js -->
+    <script src="js/ajax-mail.js"></script>
+    <!-- Main js file that contents all jQuery plugins activation. -->
+    <script src="js/main.js"></script>
+    <script>magic()</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+    <script>
+      var app = new Vue({
+        el: '#sideBox',
+        methods:{
+        },
+        data: {
+          locations: [
+  {
+    "retailerName": "A V MOBILES (NAGOLE)",
+    "retailerArea": "Nagole X Road",
+    "adderss": "PLOT NO.76 2-1-2/1-Nagole X Road-Ranga Reddy",
+    "name": "VENKATESHWARLU BACHU",
+    "phone": 9652568881,
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "retailerName": "A.S.MOBILES STORE (Manikonda)",
+    "retailerArea": "MANIKONDA",
+    "adderss": "Shop No.4-Lalitha Mahal Building-Beside Andhra Bank-Manikonda",
+    "name": "MAHESH BABU SRIRAM",
+    "phone": 9963102102,
+    "latitude": 17.40279,
+    "longitude": 78.37754
+  },
+  {
+    "retailerName": "ADITH ELECTRONICS(Ameerpet)",
+    "retailerArea": "Ameerpet",
+    "adderss": "7-1-616-Rahmath Complex-Ameerpet X Road-Ameerpet",
+    "name": "VEMULA RAMANUJA CHARY",
+    "phone": 9246150400,
+    "latitude": 17.541052,
+    "longitude": 78.452068
+  },
+  {
+    "retailerName": "AL-NAAZ COMMUNICATIONS(GHANSI BAZAR)",
+    "retailerArea": "GHANSI BAZAR",
+    "adderss": "#21-6-65/2-NEAR GAYATRI NAGAR-GHANSI BAZAR",
+    "name": "ABDUS SALAM KHAN",
+    "phone": 9849898047,
+    "latitude": 17.367019,
+    "longitude": 78.468686
+  },
+  {
+    "retailerName": "AMBA BHAVANI ELECTRONICS",
+    "retailerArea": "HYDERSHAQOTE",
+    "adderss": "#PLOT NO.1-HYDERSHAQOTE-SUNCITY-MAINROAD",
+    "name": "SARITHA DUSARI",
+    "phone": 9949008883,
+    "latitude": 17.37836,
+    "longitude": 78.42031
+  },
+  {
+    "retailerName": "ANAND TRADING CO (Tarnaka)",
+    "retailerArea": "Secunderabad",
+    "adderss": "12-5-35/B/3-Opp Spencers Super Market-Tarnaka",
+    "name": "KAMLESH JAIN",
+    "phone": 9866436391,
+    "latitude": 17.42902,
+    "longitude": 78.53327
+  },
+  {
+    "retailerName": "ANJALI COMMUNICATIONS (BOWENPALLY)",
+    "retailerArea": "BOWENPALLY",
+    "adderss": "F NO.B3 SECTOR CA SHOP NO.3-TYPE-2-AWHD CLOLONY -BOWENPALLY",
+    "name": "MALLEAREDDY JYOTHI",
+    "phone": "9177617407, 9951594317",
+    "latitude": 17.468788,
+    "longitude": 78.494765
+  },
+  {
+    "retailerName": "APARNA MOBILES (Yousufguda)",
+    "retailerArea": "YOUSUFGUDA",
+    "adderss": "#8-3-303/1/1-YOUSUFGUDA BASTHI",
+    "name": "PABBA SRAVAN KUMAR",
+    "phone": 9848492068,
+    "latitude": 17.43605,
+    "longitude": 78.43399
+  },
+  {
+    "retailerName": "APPLE MOBILES (Kondapur)",
+    "retailerArea": "Kondapur",
+    "adderss": "Shop No. 2-41/14/A- Prashanth Nagar- Kondapur X Road",
+    "name": "Bandla Kishore",
+    "phone": 9989339909,
+    "latitude": 17.46399,
+    "longitude": 78.36738
+  },
+  {
+    "retailerName": "ASK MOBILES (Hyderguda)",
+    "retailerArea": "Hyderguda",
+    "adderss": "# 3-6-290/13- Opp Hotel Central Park-Old MLA Quartes Road- Hyderg",
+    "name": "Mehmood Khanani",
+    "phone": 9885418328,
+    "latitude": 17.39906,
+    "longitude": 78.48028
+  },
+  {
+    "retailerName": "AYYAPPA MOBILES (Nizampet)",
+    "retailerArea": "Bachupally",
+    "adderss": "Shop No. 2- Plot No: 251- Opp BVRIT Engg Collage- Rajeev Gandhi Nagar- Bachupally- R R Dist- Hyd",
+    "name": "Muddasani Sampath Kumar",
+    "phone": 9618555524,
+    "latitude": 17.52606,
+    "longitude": 78.37006
+  },
+  {
+    "retailerName": "BEST MOBILES",
+    "retailerArea": "Neredmet",
+    "adderss": "31-91/B-Plot No.596- Difence Colony-Neredmet X Roads-SECUNDRABAD",
+    "name": "P.JANARDHAN RAO",
+    "phone": 9704669666,
+    "latitude": 17.482123,
+    "longitude": 78.536797
+  },
+  {
+    "retailerName": "BHAVANI MOBILES (Vanasthalipuram)",
+    "retailerArea": "Vanasthalipuram",
+    "adderss": "Plot No.1 Near Sushma Theatre- Vanasthalipuram",
+    "name": "Sravan Kumar Domalpally",
+    "phone": 9346535914,
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "retailerName": "CELL BAY MOBILES ELECTRONICS PVT LTD",
+    "retailerArea": "Madhapur",
+    "adderss": "2-56-Ayyappa Society Road-Opp SBI Bank-Madhapur",
+    "name": "NAGARAJ",
+    "phone": 9848229960,
+    "latitude": 17.448832,
+    "longitude": 78.386475
+  },
+  {
+    "retailerName": "CELL PLUS (Old City)",
+    "retailerArea": "Old city",
+    "adderss": "# 19-3-528/2-Sharma Talkies Road- Jahanuma",
+    "name": "ADIL MOHAMMED",
+    "phone": 9848316390,
+    "latitude": 17.34259,
+    "longitude": 78.46586
+  },
+  {
+    "retailerName": "CELL WORLD (OLD CITY)",
+    "retailerArea": "JAHUNUMA",
+    "adderss": "5-9-62-Shop No 42-46-Khan Lateef Khan Estates-LB Stadium Road-Basheerbagh",
+    "name": "TABASSUM BEGUM",
+    "phone": 9912348888,
+    "latitude": 17.39852,
+    "longitude": 78.47238
+  },
+  {
+    "retailerName": "CELLBAY -BODUPPAL",
+    "retailerArea": "BODUPPAL",
+    "adderss": "Shop.No.12, Jettamallaiah complex, Boduppal,Hyderabad-500039",
+    "name": "",
+    "phone": "",
+    "latitude": 17.406071,
+    "longitude": 78.591927
+  },
+  {
+    "retailerName": "CELLBAY -CHANDANAGAR 2",
+    "retailerArea": "CHANDA NAGAR PRIME",
+    "adderss": "PLOT NO 15 OPPO geetha theater lane,Behind capri Hotel,chandanagar, hyderabad",
+    "name": "",
+    "phone": "",
+    "latitude": 17.4945512,
+    "longitude": 78.3190405
+  },
+  {
+    "retailerName": "CELLBAY -ISNAPUR",
+    "retailerArea": "ISNAPUR",
+    "adderss": "7-100 ISNAPUR X ROADS Sangareddy Dist502307",
+    "name": "",
+    "phone": "",
+    "latitude": 17.5459854,
+    "longitude": 78.2120061
+  },
+  {
+    "retailerName": "CELLBAY -KOMPALLY",
+    "retailerArea": "KOMPALLY",
+    "adderss": "D.No: 4-16/1, Pet Basheerabad, Vill-Jeedimetla,  Medchal road, NH-7 Hyderabad-500055.",
+    "name": "",
+    "phone": "",
+    "latitude": 17.5130817,
+    "longitude": 78.4799256
+  },
+  {
+    "retailerName": "CELLBAY -MALLAPUR",
+    "retailerArea": "MALLAPUR",
+    "adderss": "Shop No: 5 & 6, Sai Towers, N.N Colony, Mallapur, Hyderabad - 500076.",
+    "name": "",
+    "phone": "",
+    "latitude": 17.4457649,
+    "longitude": 78.567958
+  },
+  {
+    "retailerName": "CELLBAY -NACHARAM",
+    "retailerArea": "NACHARAM",
+    "adderss": "H:NO.4-7-41/2/B, situated at mainroad, beside Heritage nacharam,Hyderabad",
+    "name": "",
+    "phone": "",
+    "latitude": 17.42319979,
+    "longitude": 78.54613803
+  },
+  {
+    "retailerName": "CELLBAY -PATANCHERU",
+    "retailerArea": "PATANCHERU",
+    "adderss": "MAHANKALI TEMPLE SHOPPING COMPLEX,MG ROAD, PATANCHERU-2",
+    "name": "",
+    "phone": "",
+    "latitude": 17.5299852,
+    "longitude": 78.2651413
+  },
+  {
+    "retailerName": "CELLBAY- LINGAMPALLY",
+    "retailerArea": "LINGAMPALLY",
+    "adderss": "SHOP.NO-21-86,KANUKUNTA,SERLINGAMPALLY,HYD-32",
+    "name": "",
+    "phone": "",
+    "latitude": 17.4930777,
+    "longitude": 78.3155325
+  },
+  {
+    "retailerName": "CELLBAY- NEREDMET",
+    "retailerArea": "NEREDMET",
+    "adderss": "Shop No-G-1, Nagarjuna arcade, 37-103/1/1, Plot No 10 & 25, Sree colony, Neredmet, Hyderbad-500056.",
+    "name": "",
+    "phone": "",
+    "latitude": 17.4816822,
+    "longitude": 78.5367265
+  },
+  {
+    "retailerName": "CELLBAY-ASHOKNAGAR",
+    "retailerArea": "ASHOKNAGAR",
+    "adderss": "Cellbay Mobiles & Electronics Pvt.Ltd. Beside Sreebakers, Ashok Nagar, Hyderabad. 24-37/1",
+    "name": "",
+    "phone": "",
+    "latitude": 17.50454206,
+    "longitude": 78.30895431
+  },
+  {
+    "retailerName": "CELLBAY-BEERAMGUDA",
+    "retailerArea": "BEERAMGUDA KAMAN",
+    "adderss": "25-33/5/2,shop no.5, Plotno1819 BEERAMGUDA KAMAN RD, MALLIKARJUNANAGAR, KAKATIYANAGAR, RAMACHANDRAPURAM, HYDERABAD-500133",
+    "name": "",
+    "phone": "",
+    "latitude": 17.50920212,
+    "longitude": 78.30067028
+  },
+  {
+    "retailerName": "CELLBAY-CHANDANAGAR",
+    "retailerArea": "CHANDA NAGAR",
+    "adderss": "Cellbay Mobiles & Electronics Pvt.Ltd. Shop No.2-83, Near Big-C, Chanda Nagar, Hyderabad.",
+    "name": "",
+    "phone": "",
+    "latitude": 17.495228,
+    "longitude": 78.327287
+  },
+  {
+    "retailerName": "CELLBAY-GACHIBOWLI",
+    "retailerArea": "GACHIBOWLI",
+    "adderss": "Cellbay Mobiles & Electronics Pvt.Ltd.  Flat No.2-29/1/A, Indira Nagar, Near Reliance Fresh, Gachibowli,Hyderabad-500032",
+    "name": "",
+    "phone": "",
+    "latitude": 17.4414536,
+    "longitude": 78.3600531
+  },
+  {
+    "retailerName": "CELLBAY-KPHB",
+    "retailerArea": "KUKATPALLY BUS STOP",
+    "adderss": "Plot no:2, Shop No  C3&C4, Saptagiri Complex, Beside Padmavathi Plaza, KPHB Bus Stop Backside. Hyderabad-500072",
+    "name": "",
+    "phone": "",
+    "latitude": 17.4947778,
+    "longitude": 78.4007399
+  },
+  {
+    "retailerName": "CELLBAY-LBNAGAR",
+    "retailerArea": "LB NAGAR",
+    "adderss": "ShopNo,1, 3-2-124/1L.B.NAGAR-X-ROAD, BESIDE ASHOKA HARDWARE, LB NAGAR, HYDERABAD",
+    "name": "",
+    "phone": "",
+    "latitude": 17.3465468,
+    "longitude": 78.5503807
+  },
+  {
+    "retailerName": "CITI MOBILE S (VANASTHALIPURAM)",
+    "retailerArea": "Vanastalipuram",
+    "adderss": "Plot No: 10- Opp Coffee Day- Beside Rythu Bazar- Vanasthalipuram",
+    "name": "Bikkumalla Satish Kumar",
+    "phone": 9848299945,
+    "latitude": 17.330722,
+    "longitude": 78.57474
+  },
+  {
+    "retailerName": "DOTCOM COMPUTERS(AMEERPET)Acs",
+    "retailerArea": "Ameerpet",
+    "adderss": "#Shop no.7-Annapoorna Block-Aditya Enclave-Ameerpet",
+    "name": "suresh babu k",
+    "phone": "9866644463 , 9246158618",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "retailerName": "DURGA DIGITAL (S.Road)",
+    "retailerArea": "Shivam Road",
+    "adderss": "# 2-2-1075/A/3 -Road No 6 -Shivam Road",
+    "name": "Sunchu Babu Rao",
+    "phone": 9849026058,
+    "latitude": 17.39117,
+    "longitude": 78.51124
+  },
+  {
+    "retailerName": "DURYA MOBILES (SHAIKPET)",
+    "retailerArea": "Tolichowki",
+    "adderss": "#S.NO.10-MY HOME RAINBOW APARTMENT-SHAIKPET",
+    "name": "LABIBA ISMATH",
+    "phone": 8886632011,
+    "latitude": 17.40533,
+    "longitude": 78.40484
+  },
+  {
+    "retailerName": "FAIZUL MOBILE & ACCESSORIES(B.HILLS)",
+    "retailerArea": "Banjara Hills",
+    "adderss": "Shop No. 11 Hyline Complex- Opp: Pizza Hut Road No.12- Banjara Hills",
+    "name": "MOHAMMED SHAUKAT",
+    "phone": 8978666086,
+    "latitude": 17.40805,
+    "longitude": 78.449928
+  },
+  {
+    "retailerName": "FAIZULS MOBILE SOLUTIONS (JM)",
+    "retailerArea": "Abids",
+    "adderss": "#5-9-215- CHIRAG ALI LANE-ABIDS",
+    "name": "Ashfaz",
+    "phone": 9000955101,
+    "latitude": 17.39236,
+    "longitude": 78.47435
+  },
+  {
+    "retailerName": "GLOBAL MOBILE STORE (Dargah)",
+    "retailerArea": "Shaikpet",
+    "adderss": "8-1-293/A/60-Opp Oasis School Dargah Shaikpet",
+    "name": "Waheed",
+    "phone": 9849626005,
+    "latitude": 17.41152,
+    "longitude": 78.39665
+  },
+  {
+    "retailerName": "GOWRI MOBILES (ECIL)",
+    "retailerArea": "ECIL",
+    "adderss": "Shop No. 4- Utilitronix Complex- ECIL",
+    "name": "Dharana Sreedhar",
+    "phone": 9866660055,
+    "latitude": 17.47402,
+    "longitude": 78.56941
+  },
+  {
+    "retailerName": "HARISH COMMUNICATIONS (Boduppal)",
+    "retailerArea": "BodUppal",
+    "adderss": "# 6-47/1- Budda Nagar Main Road-Warangal Highway-BodUppal",
+    "name": "Harish",
+    "phone": 9391234514,
+    "latitude": 17.40755,
+    "longitude": 78.5957
+  },
+  {
+    "retailerName": "INLINE MOBILES (Tirmulgherry)",
+    "retailerArea": "Tirmulgherry",
+    "adderss": "# Plot No. 10/A- Chandragiri Colony-Tirmulgherry-Secunderabad",
+    "name": "Imran",
+    "phone": 9885347837,
+    "latitude": 17.46874,
+    "longitude": 78.50754
+  },
+  {
+    "retailerName": "JAGADAMBA ELECTRONICS & MOBILES (Kattedan)",
+    "retailerArea": "RAJENDRA NAGAR",
+    "adderss": "#8-13-8/48/A-OPP SWAPNA 70MM KATTEDAN-RAJENDRA NAGAR",
+    "name": "MOHANLAL CHOUDARY",
+    "phone": 9032882733,
+    "latitude": 17.31161,
+    "longitude": 78.43887
+  },
+  {
+    "retailerName": "JAGADAMBA SMART MOBILES & WATCH (Kapra)",
+    "retailerArea": "Kapra",
+    "adderss": "PLOT NO 281/C-KAPRA ROAD",
+    "name": "Malaram",
+    "phone": 9866024996,
+    "latitude": 17.47788,
+    "longitude": 78.56349
+  },
+  {
+    "retailerName": "JAI BABA MOBILES (S.Road)",
+    "retailerArea": "Secunderabad",
+    "adderss": "# 7-1-2- SP Charch complex- Opp Railway Station",
+    "name": "Navpath Kumar Dewasi",
+    "phone": 9490318432,
+    "latitude": 17.435577,
+    "longitude": 78.499806
+  },
+  {
+    "retailerName": "JAMKHANI MOBILES (BANJARA HILLS)",
+    "retailerArea": "BANJARA HILLS",
+    "adderss": "SHOP NO.10-1-128/1-ROAD NO.1-CHINTAL BASTI-BANJARA HILLS",
+    "name": "SHAIK MAQDOOM HUSSAIN",
+    "phone": "9030870786 , 9347177771",
+    "latitude": 17.409937,
+    "longitude": 78.45264
+  },
+  {
+    "retailerName": "LEAD ENTERPRISES (Kukatpally)",
+    "retailerArea": "KPHB",
+    "adderss": "LIG-64-PHASE-II-DHARMAREDDY COLONY",
+    "name": "Nageswara Babu",
+    "phone": 9100072554,
+    "latitude": 17.3463,
+    "longitude": 78.5081
+  },
+  {
+    "retailerName": "M.B MOBILE STORE (Attapur)",
+    "retailerArea": "121.Attapur",
+    "adderss": "SER NO.495- BESIDE KARACHI BAKERY-OPP PILLAR NO.121- ATTAPUR",
+    "name": "Mirza Zulfequar Baig",
+    "phone": 9296808229,
+    "latitude": 17.370827,
+    "longitude": 78.429569
+  },
+  {
+    "retailerName": "MAHAVEER MOBILE (Jagathgirigutta)",
+    "retailerArea": "Jagadgirigutta",
+    "adderss": "# 4-32-401- Allwyn Colony- jagadgirigutta",
+    "name": "Kuncham Chandra Kanth",
+    "phone": 9885749108,
+    "latitude": 17.50228,
+    "longitude": 78.41951
+  },
+  {
+    "retailerName": "MAHAVEER MOBILE SHOPPE (Narayanguda)",
+    "retailerArea": "Nayaganaguda",
+    "adderss": "# 3-5-1089- INTUC Bhavan- Narayanaguda",
+    "name": "Rajeesh Jain",
+    "phone": 9010190202,
+    "latitude": 17.39684,
+    "longitude": 78.49168
+  },
+  {
+    "retailerName": "MAHESH MOBILES (Abdullapurmet)",
+    "retailerArea": "Abdullapurmet",
+    "adderss": "# 4-32- Opp Aadhar Hospital-Abdullapurmet",
+    "name": "Tharun Kumar",
+    "phone": 9030308076,
+    "latitude": 17.31011,
+    "longitude": 78.68676
+  },
+  {
+    "retailerName": "MAPPLE MOBILES (Bowenpally)",
+    "retailerArea": "Bowenpally",
+    "adderss": "Plot No.4 Dhanalakshmi Colony-Ground Floor-Bapuji Nagar-Bowenpally",
+    "name": "Ravi Jagannath",
+    "phone": 9591843555,
+    "latitude": 17.46583,
+    "longitude": 78.48299
+  },
+  {
+    "retailerName": "MAX MOBILE (Langer House)",
+    "retailerArea": "Langer House",
+    "adderss": "9-2-504/A Near Andhra Bank-Langer House Main Road",
+    "name": "JAHID FIROJ BHAI TEJANI",
+    "phone": 9885201285,
+    "latitude": 17.38029,
+    "longitude": 78.42133
+  },
+  {
+    "retailerName": "MAXELL TIMES (Station Road)",
+    "retailerArea": "Station Road",
+    "adderss": "SHOP.NO. 7 TEJ COMPLEX-OPP : RLY. RESERVATION COMPLEX-BELOW HOTEL Nirmal Grand",
+    "name": "NAVRATAN DEVICHAND JINANI",
+    "phone": 9885118585,
+    "latitude": 17.435017,
+    "longitude": 78.50587
+  },
+  {
+    "retailerName": "MOBILE . COM",
+    "retailerArea": "Malkajgiri",
+    "adderss": "D No. 4-91 Maruthinagar Near Vani Nagar- Bus Stop- Malkajgiri",
+    "name": "Akuthota Sampath",
+    "phone": 9948695007,
+    "latitude": 17.453192,
+    "longitude": 78.534164
+  },
+  {
+    "retailerName": "MOBILE SHOPPE (Kachiguda)",
+    "retailerArea": "Ramkote Kachiguda",
+    "adderss": "478 BESIDE BLUE NILE HOTEL-RAM KOTI KACHIGUDA",
+    "name": "Mirza Akbar Baig",
+    "phone": 9885887865,
+    "latitude": 17.3916,
+    "longitude": 78.48799
+  },
+  {
+    "retailerName": "MOBILES 4U (Alkapuri)",
+    "retailerArea": "Alkapuri",
+    "adderss": "Plot No 19 Alkapuri- Opp Sai Baba temple",
+    "name": "Peratipally Srinivas",
+    "phone": 9032215528,
+    "latitude": 17.36531,
+    "longitude": 78.5534
+  },
+  {
+    "retailerName": "MOGHAL COMMUNICATIONS",
+    "retailerArea": "Mehdipatnam",
+    "adderss": "12-2822/1/60 Opp: Pillar No 21- Mehdipatnam",
+    "name": "Mirza Azam Ali",
+    "phone": 9177771900,
+    "latitude": 17.39472,
+    "longitude": 78.43769
+  },
+  {
+    "retailerName": "N4U (Ameerpet)",
+    "retailerArea": "Ameerpet",
+    "adderss": "# 8-3-952-10-A- Srinagar Colony- Ameerpet",
+    "name": "Kolagatala Prajeswar Rao",
+    "phone": 9030422000,
+    "latitude": 17.429693,
+    "longitude": 78.448427
+  },
+  {
+    "retailerName": "NEW BRIGHT MOBILES (Kondapur)",
+    "retailerArea": "KONDAPUR",
+    "adderss": "PLOT NO.124-SY NO.206-SRIRAM NAGAR-KONDAPUR",
+    "name": "KUMAWAT SUKHARAM",
+    "phone": 9908648496,
+    "latitude": 17.46127,
+    "longitude": 78.352813
+  },
+  {
+    "retailerName": "NEW GLOBAL COMMUNICATION(Himayatnagar)",
+    "retailerArea": "Himayath Nagar",
+    "adderss": "3-5-926/5-Main Road-Himayatnagar",
+    "name": "AVEZ AHMED",
+    "phone": 8121631195,
+    "latitude": 17.40063,
+    "longitude": 78.49048
+  },
+  {
+    "retailerName": "NEW MOVIE PLANET (Old City)",
+    "retailerArea": "Charminar",
+    "adderss": "# 23-1-1069- Lower Ground Floor Opp Charminar Bus Stand",
+    "name": "Md Shakeel",
+    "phone": 9848250623,
+    "latitude": 17.358769,
+    "longitude": 78.474224
+  },
+  {
+    "retailerName": "NEW PARAS MOBILES (AMEERPET)",
+    "retailerArea": "Ameerpet",
+    "adderss": "D.NO.7-1-419/10/N/3-SHOP NO.3/A- Nagasuri Plaza-Ground Floor-Beside Bank of India-Opp Maithri Vihar-Ameerpet",
+    "name": "RAFIQ HALANI",
+    "phone": 9032627861,
+    "latitude": 17.437071,
+    "longitude": 78.4456393
+  },
+  {
+    "retailerName": "NEW PARAS MOBILES (S.R.NAGAR)",
+    "retailerArea": "S.R.NAGAR",
+    "adderss": "15/A SHOP NO.1GROUND FLOOR-KULKARNI MANOR-B.K GUDA PARK ROAD-OPP.HERITAGE FRESH SUPER MARKER-S.R.NAGAR",
+    "name": "RAFIQ HALANI",
+    "phone": 9032627861,
+    "latitude": 17.444874,
+    "longitude": 78.4466292
+  },
+  {
+    "retailerName": "NEW RAMDEV MOBILES (Lothkunta)",
+    "retailerArea": "LOTHKUNTA",
+    "adderss": "13-26 LOTHKUNTA-OPP ICICI BANK ATM",
+    "name": "TARARAM PRAJAPAT",
+    "phone": 9160123122,
+    "latitude": 17.493455,
+    "longitude": 78.512656
+  },
+  {
+    "retailerName": "NEW SHIVA MOBILES (Neredmet)",
+    "retailerArea": "SECUNDERABAD",
+    "adderss": "SHOP NO.28-3/3-NEAR ANDHRA BANK-VINAYAK NAGAR-NEREDMET-SECUNDERABAD",
+    "name": "KURAPATHI SUBHADRA",
+    "phone": 9391598999,
+    "latitude": 17.467651,
+    "longitude": 78.53904
+  },
+  {
+    "retailerName": "NEXUS MOBILES (Ramanthapur)",
+    "retailerArea": "Ramanthapur",
+    "adderss": "2-2-42/10-OPP.CHALET RESIDENCY-RAMANTHAPUR ROAD",
+    "name": "K. IRSHAD AHMED",
+    "phone": 8500067860,
+    "latitude": 17.39576,
+    "longitude": 78.52761
+  },
+  {
+    "retailerName": "NIRMAL THE MOBILE STORE (Shapur Nagar)",
+    "retailerArea": "Shahpur",
+    "adderss": "B11 MPR Complex- Opp: Sana bawarchi hotel-Shapur Nagar",
+    "name": "Ram Anand Gaur",
+    "phone": 9293909179,
+    "latitude": 17.5149,
+    "longitude": 78.44725
+  },
+  {
+    "retailerName": "OBM",
+    "retailerArea": "Opp Airtel Showroom, S.D Road",
+    "adderss": "Shop No. 64, 1-7-231 to 421, Chandralok Complex , Opp Airtel Showroom, S.D Road",
+    "name": "Mirza Md Hussain",
+    "phone": 9885318331,
+    "latitude": 17.44191,
+    "longitude": 78.48835
+  },
+  {
+    "retailerName": "OBM-2",
+    "retailerArea": "Abhiruchi Hote S.D. Road",
+    "adderss": "# 1-7-274/2, Below Abhiruchi Hotel, S.D. Road, Sec'bad-500003",
+    "name": "Abdul",
+    "phone": 7702008602,
+    "latitude": 17.44176,
+    "longitude": 78.48918
+  },
+  {
+    "retailerName": "OBM-3",
+    "retailerArea": "Chilkalguda",
+    "adderss": "#11-1-776/1/A/1, Ground Floor, Beside DCB ATM, Chilkalguda, Sec'bad-500061",
+    "name": "Asad",
+    "phone": 7013523209,
+    "latitude": 17.43062,
+    "longitude": 78.51088
+  },
+  {
+    "retailerName": "OM ENTERPRISES(MADHAPUR)",
+    "retailerArea": "Madhapur",
+    "adderss": "1-12 GUTTALA BEGUMPET-PILLAR NO.25-MADHAPUR-OPP TATA DOCOMO SHOWROOM",
+    "name": "DHANRAJ SARDA",
+    "phone": 9948004462,
+    "latitude": 17.440234,
+    "longitude": 78.3948009
+  },
+  {
+    "retailerName": "OM SAI ELECTRONICS & HOME APPLIANCES",
+    "retailerArea": "MOTHI NAGA",
+    "adderss": "SHOP NO 7 SWASTIK COMPLEX-MOTHI NAGAR-BORABANDA-NEAR VIJETHA THEATRE",
+    "name": "Y ARCHANA",
+    "phone": 9912605464,
+    "latitude": 17.453649,
+    "longitude": 78.420715
+  },
+  {
+    "retailerName": "OM SRI SAI COMMUNICATIONS (UPPAL)",
+    "retailerArea": "Uppal",
+    "adderss": "# 3-35- Main Road- Uppal",
+    "name": "Bikkumalla Sudhakar Gupta",
+    "phone": 9533363339,
+    "latitude": 17.40134,
+    "longitude": 78.56701
+  },
+  {
+    "retailerName": "PADMAJA MOBILES (Kushaiguda)",
+    "retailerArea": "Kushaiguda",
+    "adderss": "H.No. 1-10-14-Opp Kushaiguda Bus Stop",
+    "name": "Voruganti Veeresh",
+    "phone": 9849842552,
+    "latitude": 17.4799,
+    "longitude": 78.57494
+  },
+  {
+    "retailerName": "PARAS MOBILE & SERVICES (NACHARAM)",
+    "retailerArea": "NACHARAM",
+    "adderss": "4-482/1/B- NACHARAM",
+    "name": "SHAIK ABDUL ASHRAFF",
+    "phone": 8686221071,
+    "latitude": 17.429806,
+    "longitude": 78.552385
+  },
+  {
+    "retailerName": "PIRGAL'S HOUSE OF ELECTRONICS & HOME APLLIANCES",
+    "retailerArea": "SECUDERABAD",
+    "adderss": "#D.NO.3-2-15-R.P.ROAD-SECUDERABAD",
+    "name": "PRAKASH CHAND JAIN",
+    "phone": 9849550478,
+    "latitude": 17.437023,
+    "longitude": 78.494196
+  },
+  {
+    "retailerName": "Pramod mobiles - NPP JM",
+    "retailerArea": "Abids",
+    "adderss": "Shop No: 1 & 2- D.No.5-8-512517- Ground Floor Jagdish Market- Abids",
+    "name": "Pramod Raj Sony",
+    "phone": 9849005270,
+    "latitude": 17.391889,
+    "longitude": 78.475319
+  },
+  {
+    "retailerName": "PREM ELECTRONICS (C.PALLY)",
+    "retailerArea": "CHIKKADPALLY",
+    "adderss": "1-1-194-CHIKKADPALLY",
+    "name": "GOUTHAM CHAND ANAND JAIN",
+    "phone": "9032559390, 9550359382",
+    "latitude": 17.404929,
+    "longitude": 78.495574
+  },
+  {
+    "retailerName": "R V MOBILE (Suraram)",
+    "retailerArea": "Suraram",
+    "adderss": "Shop No. 2-1-102/2- Opp Bus Stop- Beside Arundathi Traders- Suraram X Road",
+    "name": "Mandava Lingaiah",
+    "phone": 9390001777,
+    "latitude": 17.54099,
+    "longitude": 78.43404
+  },
+  {
+    "retailerName": "R.V. MOBILE WORLD (Gandimasamma X Road)",
+    "retailerArea": "Medchal",
+    "adderss": "Shop No.4 BGR Complex-Gandimaisamma X Road-Quthbullapur",
+    "name": "MANDAVA RAVI KUMAR",
+    "phone": 9390129812,
+    "latitude": 17.57552,
+    "longitude": 78.42311
+  },
+  {
+    "retailerName": "RAGHAVENDRA MOBILES (Balapur)",
+    "retailerArea": "Balapur X Roads",
+    "adderss": "Plot No 35&36- SLNS Colony- Meerpet Village- Balapur X Roads",
+    "name": "Kiran Kumar",
+    "phone": 7013599952,
+    "latitude": 17.31868,
+    "longitude": 78.51991
+  },
+  {
+    "retailerName": "RAINBOW MOBILES (Kothapet)",
+    "retailerArea": "Kothapet",
+    "adderss": "7-133/8/A-Ground Floor-Huda Complex-Kothapet-Ranga Reddy",
+    "name": "CHANDU",
+    "phone": 9000272664,
+    "latitude": 17.366129,
+    "longitude": 78.539823
+  },
+  {
+    "retailerName": "RAJU COMMUNICATION(Ramnagar)",
+    "retailerArea": "Ram Nagar",
+    "adderss": "# 1-7-1002/23/1- Ram Nagar",
+    "name": "Ashok Tekchandani",
+    "phone": 9346281077,
+    "latitude": 17.41011,
+    "longitude": 78.50682
+  },
+  {
+    "retailerName": "RANAJI MOBILES (Gachibowli)",
+    "retailerArea": "GACHIBOWLI",
+    "adderss": "2-48-HARATI BAI-INDRANAGAR-GACHIBOWLI-HYDERABAD",
+    "name": "RAM NARAYAN BHATI",
+    "phone": 8501944186,
+    "latitude": 17.441023,
+    "longitude": 78.3598164
+  },
+  {
+    "retailerName": "RANGE MOBILES (RTC X Road)",
+    "retailerArea": "RTC X Road",
+    "adderss": "# 1-1-101/A/6/7- Beside Hanuman Temple- RTC X Road",
+    "name": "Shroff Deepak",
+    "phone": 9966537816,
+    "latitude": 17.40694,
+    "longitude": 78.49608
+  },
+  {
+    "retailerName": "ROHIT ELECTRONICS & HOME APPLIANCES",
+    "retailerArea": "HUMAYUN NAGAR",
+    "adderss": "#10-3-281/1/A-S.D EYE HOSPITAL ROAD-HUMAYUN NAGAR",
+    "name": "RAHIT KUMAR RUDRASHETTY",
+    "phone": 9700276373,
+    "latitude": 17.399313,
+    "longitude": 78.446932
+  },
+  {
+    "retailerName": "ROMALS MOBILES AND ELECTRONICS",
+    "retailerArea": "ABIDS",
+    "adderss": "SHOP-40 ABIDS SHOPPING COMPLEX-ABIDS",
+    "name": "RAJENDER SINGH",
+    "phone": 9010000008,
+    "latitude": 17.39184,
+    "longitude": 78.47483
+  },
+  {
+    "retailerName": "ROOPAM ELECTRONICS & APPLIANCES (Moula Ali)",
+    "retailerArea": "MOULA ALI",
+    "adderss": "42/845/2-PLOT NO.7/A-A S RAO NAGAR INSIDE KAMAN-MOULA ALI",
+    "name": "DILIP KUMAR JAIN",
+    "phone": 9246361692,
+    "latitude": 17.461573,
+    "longitude": 78.559021
+  },
+  {
+    "retailerName": "RSB ASSOCIATES (Madhapur)",
+    "retailerArea": "Madhapur",
+    "adderss": "# 1-98/6/29- Plot No.29- Road No.36- Opp.Karachi bakery- Madhapur",
+    "name": "Chinthakindi Bhaskar",
+    "phone": 9885017979,
+    "latitude": 17.445302,
+    "longitude": 78.3861106
+  },
+  {
+    "retailerName": "S.V. MOBILES (Chilkanagar)",
+    "retailerArea": "Uppal",
+    "adderss": "8-17/2-Plot No.52-Opp Chilkanagar Bus Stop-Hemanagar-Uppal",
+    "name": "KRISHNARJUN BACHU",
+    "phone": "9640986898,  9494967394",
+    "latitude": 17.421242,
+    "longitude": 78.5645023
+  },
+  {
+    "retailerName": "SAI VEERABHADRA ELECTRONICS (Chinthal)",
+    "retailerArea": "Chinthal",
+    "adderss": "Opp Shah Theatre-HMT Road-Chinthal",
+    "name": "Neela Suresh",
+    "phone": 9030120120,
+    "latitude": 17.49256,
+    "longitude": 78.45139
+  },
+  {
+    "retailerName": "SALUTE MOBILES (Panjagutta)",
+    "retailerArea": "Punjagutta",
+    "adderss": "# 6-3-456/A/2-Shop No.11 Model House -Panjagutta",
+    "name": "MOHAMMAED AFROZE",
+    "phone": "7013604140,  9701666786",
+    "latitude": 17.424417,
+    "longitude": 78.453289
+  },
+  {
+    "retailerName": "SAMBHAV MOBILES (DSNR)",
+    "retailerArea": "Dilsuknagar",
+    "adderss": "# Shop No. 17- 13-4-100- Ground Floor-Imma Son's Commercial Complex-Dilsukh Nagar",
+    "name": "Naisar Golecha",
+    "phone": 9963898888,
+    "latitude": 17.40986,
+    "longitude": 78.479666
+  },
+  {
+    "retailerName": "SAMBHAV-ATTAPUR",
+    "retailerArea": "ATTAPUR",
+    "adderss": "Hno 4-6-26/7, Ground Floor, Opp Fill more petrol pump, Pillar no 137, Ring Road, Attapur , Hyderabad, Hyderabad, Telangana, 500048",
+    "name": "",
+    "phone": "",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "retailerName": "SAMBHAV-CHANDA NAGAR",
+    "retailerArea": "CHANDANAGAR",
+    "adderss": "H. no 4-138, Ground Floor, Near Gandhi Statue, Chandanagar, Hyderabad, Hyderabad, Telangana, 500050",
+    "name": "",
+    "phone": "",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "retailerName": "SAMBHAV-DILSUKH NAGAR",
+    "retailerArea": "DILSUKNAGAR",
+    "adderss": "Shop no 17, 13-4-100, Ground Floor, IMAMSONS COMMERCIAL COMPLEX, DILSHUKNAGAR MAIN ROAD, HYDERABAD, Ranga Reddy, Telangana, 500060",
+    "name": "",
+    "phone": "",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "retailerName": "SAMBHAV-LANGER HOUSE",
+    "retailerArea": "LANGERHOUSE",
+    "adderss": "H.No.13-6-798/1/2/A/1,Ground Floor,, Ambedkar Nagar, LangarHouse, HYDERABAD, Ranga Reddy, Telangana, 500008",
+    "name": "",
+    "phone": "",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "retailerName": "SAMBHAV-VANASTALIPURAM",
+    "retailerArea": "VANASTHALIPURAM",
+    "adderss": "6-1-386, Plot 58 and 58-A HIG, Phase-I, Main Road, Vanasthalipuram, Hayatnagar, Hyderabad, Ranga Reddy, Telangana, 500070",
+    "name": "",
+    "phone": "",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "retailerName": "SAMYUKTHA MOBILES STORE (KUKATPALLY)",
+    "retailerArea": "KUKATPALLY",
+    "adderss": "#G3-Plot 39- CSR Towers- Addagutta- Kukatpally",
+    "name": "MAHESH YADAV GANDHI",
+    "phone": 9100012349,
+    "latitude": 17.497803,
+    "longitude": 78.3951
+  },
+  {
+    "retailerName": "SAPTHAGIRI TELE SERVICES (Balkampet)",
+    "retailerArea": "Balkampet Main Road,",
+    "adderss": "# 7-1-282/C/1/1- Opp Indian Oil Petrol Pump-Balkampet Main Road-",
+    "name": "Vardharaju",
+    "phone": 9399991123,
+    "latitude": 17.44946,
+    "longitude": 78.44992
+  },
+  {
+    "retailerName": "SHAH ELECTRONICS & HOME APPLIANCES PVT LTD(RP ROAD)",
+    "retailerArea": "SECUNDERABAD",
+    "adderss": "#SHOP NO.4-2-16-17-18-R.P ROAD-NEAR BATA-SECUNDERABAD",
+    "name": "NISHITH GULABRAY SHAH",
+    "phone": 9885800002,
+    "latitude": 17.434948,
+    "longitude": 78.4928676
+  },
+  {
+    "retailerName": "SHREE MOBILES (AMEERPET)",
+    "retailerArea": "Ameerpet",
+    "adderss": "Shop No. 43 & 44 -Nilgiri Block- Aditya Enclaves- Ameerpet",
+    "name": "Agarwal Sajjan",
+    "phone": 9849960204,
+    "latitude": 17.43586,
+    "longitude": 78.44454
+  },
+  {
+    "retailerName": "SHREE MOBILES (MALKAJGIRI)",
+    "retailerArea": "Malkagiri",
+    "adderss": "# 5-39/1- Opp Gandhi Park- Malkagiri X Roads",
+    "name": "Alampally Suresh",
+    "phone": 9246886594,
+    "latitude": 17.44942,
+    "longitude": 78.53646
+  },
+  {
+    "retailerName": "SHREE MOBILES WATCH & GIFTS NOVELTIES (Medchal)",
+    "retailerArea": "Medchal",
+    "adderss": "Medchal X Road- Medchal- Hyderabad",
+    "name": "Boorugu Srikanth",
+    "phone": 9849792163,
+    "latitude": 17.63022,
+    "longitude": 78.48441
+  },
+  {
+    "retailerName": "SIMRAN MOBILES (Alwal)",
+    "retailerArea": "Golnaka",
+    "adderss": "Shop No. 1-11-96- Near Alwal Bus Stop- Golnaka Alwal",
+    "name": "RAMESH AHUJA",
+    "phone": 9849838168,
+    "latitude": 17.502035,
+    "longitude": 78.513783
+  },
+  {
+    "retailerName": "SIMRAN MOBILES (Siddiamber Bazar)",
+    "retailerArea": "HYDERABAD",
+    "adderss": "15-02-417/2-LAND MARK CENTER-SIDDIAMBER BAZAR",
+    "name": "SIMRANJIT SINGH",
+    "phone": 9885525353,
+    "latitude": 17.377722,
+    "longitude": 78.4751
+  },
+  {
+    "retailerName": "SINGAPORE CENTRE(KOTI)",
+    "retailerArea": "KOTI",
+    "adderss": "51-1-750/11/1-Haridas Market Bank Street-Koti",
+    "name": "P A MAHMOOD, ISMAIL SHAIK DHADER",
+    "phone": 9848731151,
+    "latitude": 17.384821,
+    "longitude": 78.482918
+  },
+  {
+    "retailerName": "SMART HUB (SHAMSHABAD)",
+    "retailerArea": "Shamshabad",
+    "adderss": "79/1/1- Samad Complex- Bus Stand Colony- R.B. Nagar- Shamshabad.",
+    "name": "MOHD MOIZ UDDIN",
+    "phone": "9393850439 , 8919368558",
+    "latitude": 17.26307,
+    "longitude": 78.38851
+  },
+  {
+    "retailerName": "SREE PIRGAL ELECTRONICS(kukatpally)",
+    "retailerArea": "kukatpally",
+    "adderss": "MIG 234 -Shanthi Plaza-KPHB Colony-Kukatpally-Hyderabad",
+    "name": "DINESH JAIN",
+    "phone": 9849062244,
+    "latitude": 17.494379,
+    "longitude": 78.399503
+  },
+  {
+    "retailerName": "SRI ANJANEYA MOBILE (NANAKRAM GUDA)",
+    "retailerArea": "NANAKRAM GUDA",
+    "adderss": "H.No:2-53-Nanakramguda-Near Hanuman Temple",
+    "name": "POTHULAPALLY GOPALA KRISHNA",
+    "phone": 9618661997,
+    "latitude": 17.42027,
+    "longitude": 78.35073
+  },
+  {
+    "retailerName": "SRI ANJANEYA MOBILES (Lingampally)",
+    "retailerArea": "LINGAMPALLY",
+    "adderss": "LIG-206-LLAGANDLA-S. LINGAMPALLY",
+    "name": "DHANUNJAY",
+    "phone": 8374393855,
+    "latitude": 17.477454,
+    "longitude": 78307973
+  },
+  {
+    "retailerName": "SRI DHANA LAKSHMI ENTERPRISES (Jagathgirigutta)",
+    "retailerArea": "Malkajgiri",
+    "adderss": "Pip Line Road-4-37-72-Anjaiah Nagar-Jagathrgirigutta-Medchal-Malkajgiri",
+    "name": "Arun Kumar Vutunuri",
+    "phone": 8686868652,
+    "latitude": 17.50162,
+    "longitude": 78.42623
+  },
+  {
+    "retailerName": "SRI DHANALAKSHMI ENTERPRISES (Gandimaisamma X Road)",
+    "retailerArea": "malkajgiri",
+    "adderss": "H no-3-95/2 P S reddy complex DP pally-Dundigal Gandimaisamma X road Medchal malkajgiri(dist)",
+    "name": "RADHA KRISHNA MURTHY PENDYALA",
+    "phone": "PRAVEEN M NO 9700111180",
+    "latitude": 17.574553,
+    "longitude": 78.423487
+  },
+  {
+    "retailerName": "SRI GOPI ENTERPRISES(DSNR)",
+    "retailerArea": "DILSHUKHNAGAR",
+    "adderss": "#S.NO.18/98/A-BESIDE DCB BANK-OPP.CHAITANYAPURI BUS STOP-DILSHUKHNAGAR",
+    "name": "APPA RAO NAMU",
+    "phone": 9849154522,
+    "latitude": 17.36819,
+    "longitude": 78.53295
+  },
+  {
+    "retailerName": "SRI MOBILES (DSNR)",
+    "retailerArea": "Dilsuknagar",
+    "adderss": "Shop No.16-11-740/1/E-Below Ideal Junior College-Gaddiannaram-Dilsukhnagar",
+    "name": "Ravula Sandeep Yadav",
+    "phone": "9985997439, 040-40032765",
+    "latitude": 17.36848,
+    "longitude": 78.52165
+  },
+  {
+    "retailerName": "SRI NIDHI MOBILES(HAYATH NAGAR)",
+    "retailerArea": "HAYATH NAGAR",
+    "adderss": "#4-7-29-MAIN ROAD-HAYATH NAGAR-",
+    "name": "KUMBAM PRASAD",
+    "phone": 9542969636,
+    "latitude": 17.32708,
+    "longitude": 78.60436
+  },
+  {
+    "retailerName": "SRI RANA ELECTRONICS & HOME APPLIANCES(MEDCHAL)",
+    "retailerArea": "MEDCHAL",
+    "adderss": "#D.NO.13-120-shop no.1&5-NH ROAD.44-BESIDE SOUJTH INDIA BANK-MEDCHAL",
+    "name": "OM PRAKASH",
+    "phone": 9553211210,
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "retailerName": "SRI SAHASRA COMMUNICATION",
+    "retailerArea": "Santosh Nagar",
+    "adderss": "# 17-1-A4- Balaji Lalitha acrade Beside- Indo English High school",
+    "name": "Nandigama Krishna Kumar",
+    "phone": 9550298949,
+    "latitude": 17.34843,
+    "longitude": 78.51636
+  },
+  {
+    "retailerName": "SRI SAI BALAJI MOBILES (Habsiguda)",
+    "retailerArea": "Habsiguda",
+    "adderss": "Shop No-4- Street No-8-Habsiguda-",
+    "name": "Rama Krishna",
+    "phone": 9848983911,
+    "latitude": 17.408831,
+    "longitude": 78.5440123
+  },
+  {
+    "retailerName": "SRI SAI CSR ENTERPRISES (Shapoornagar)",
+    "retailerArea": "Shapoor Nagar",
+    "adderss": "Shop No. 11 & 12- AK Complex- Shapoornagar",
+    "name": "CH Srinivas",
+    "phone": 9985999977,
+    "latitude": 17.501543,
+    "longitude": 78.425927
+  },
+  {
+    "retailerName": "SRI SAI NETHRA MOBILES AND COMMUNICATIONS(KPHB)",
+    "retailerArea": "Nizampet",
+    "adderss": "1-2-177/1-Opp ZPP High School-Near Holistic Hospital-Nizampet Road",
+    "name": "RAMESH",
+    "phone": 9908511110,
+    "latitude": 17.50158,
+    "longitude": 78.3891
+  },
+  {
+    "retailerName": "SRI SANGEETHA MOBILES (Moosapet)",
+    "retailerArea": "Moosapet",
+    "adderss": "Shop No: 7-83- Main Road-Moosapet near GHMC office- hanuman chowk",
+    "name": "Kiran",
+    "phone": 9700101112,
+    "latitude": 17.46931,
+    "longitude": 78.4229
+  },
+  {
+    "retailerName": "SRI SRINIVASA ELECTRONICS (Ecil)",
+    "retailerArea": "Malkajgiri",
+    "adderss": "Shop No.1 2 3-Ranga Reddy complex-Anupuram-DR A S Rao Nagar-Mechal - Malkajgiri",
+    "name": "S Upender",
+    "phone": 9030284498,
+    "latitude": 17.47752,
+    "longitude": 78.562452
+  },
+  {
+    "retailerName": "SRI STANDARD MOBILES (Secbad)",
+    "retailerArea": "SECUNDERABAD",
+    "adderss": "Shop No 1 MCH Complex-Near YASHODA HOSPITAL-Secunderabad",
+    "name": "MIDATHANI VENKATESHWARA RAO",
+    "phone": "9293951123, 9246245511",
+    "latitude": 17.44233,
+    "longitude": 78.49645
+  },
+  {
+    "retailerName": "SRI VENKATESHWARA ELECTRONICS & MOBILE CENTRE (IBPM)",
+    "retailerArea": "Sagar Road,",
+    "adderss": "Shop No.14 R.T.C Complex-Sagar Road-Ibrahimpatnam",
+    "name": "VIDYASAGAR",
+    "phone": 9949800486,
+    "latitude": 17.19168,
+    "longitude": 78.64717
+  },
+  {
+    "retailerName": "SRI VENKATESHWARA WATCH & MOBILES (Mothinagar)",
+    "retailerArea": "Mothi Nagar",
+    "adderss": "Plot no 15 G 3&4- Kalyan Nagar- Mothinagar X Road",
+    "name": "Paladi Prabhakar",
+    "phone": 8686141516,
+    "latitude": 17.45414,
+    "longitude": 78.42219
+  },
+  {
+    "retailerName": "SRS ELECTRONICS & MOBILES (NALLAKUNTA)",
+    "retailerArea": "Vidya Nagar",
+    "adderss": "#2-2-1130/24/1/D- SHIVAM ROAD- BESIDE AXIS BANK-PRASHANTH NAGAR- NEW NALLAKUNTA-",
+    "name": "SWAPNA KATAKAM",
+    "phone": "7013105561, 9848545676",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "retailerName": "SSV SAPTHAGIRI MOBILES(YOUSUFGUDA)",
+    "retailerArea": "YOUSUFGUDA",
+    "adderss": "#8-3-231/B/5/6-SRI KRISHNA NAGAR-YOUSUFGUDA",
+    "name": "RAJ KUMAR PATIL",
+    "phone": 9030000008,
+    "latitude": 17.431239,
+    "longitude": 78.4257747
+  },
+  {
+    "retailerName": "SURABHI GIFTS & NOVELTIES (JM)",
+    "retailerArea": "Abids",
+    "adderss": "Shop No: 1/A- Emerald Hotel Lane- Abids",
+    "name": "Srinivas Malu",
+    "phone": 7013103828,
+    "latitude": 17.391938,
+    "longitude": 78.473458
+  },
+  {
+    "retailerName": "SVR TELECOM SERVICES (TILAK NAGAR)",
+    "retailerArea": "NALLAKUNTA",
+    "adderss": "SHOP NO.2-1-392/1/3/8-TILAKNAGAR ROAD-NALLAKUNTA",
+    "name": "VOORE RAGHAVENDER",
+    "phone": 8801121212,
+    "latitude": 17.39651,
+    "longitude": 78.50428
+  },
+  {
+    "retailerName": "SVS MOBILES (B N REDDY NAGAR)",
+    "retailerArea": "B N Reddy Nager",
+    "adderss": "#8-6-728/3-B.N REDDY NAGAR- Xroad-Hyderabad",
+    "name": "Ganesh",
+    "phone": 9505024365,
+    "latitude": 17.32142,
+    "longitude": 78.56009
+  },
+  {
+    "retailerName": "SVS MOBILES & ELECTRONICS (B N REDDY NAGAR)",
+    "retailerArea": "Saroornagar",
+    "adderss": "P.No.01-Chaitanya Nagar-B.N Reddy Nagar-Saroor Nagar-",
+    "name": "NAGESH REDDY ADDULA",
+    "phone": 9505024365,
+    "latitude": 17.32263386,
+    "longitude": 78.55809331
+  },
+  {
+    "retailerName": "TARANGA CELL WORLD (Ghatkesar)",
+    "retailerArea": "Ghatkesar",
+    "adderss": "2-198-Opp Axis Bank ATM-Ghatkesar Main Road-Medchal District",
+    "name": "VENKATESH",
+    "phone": 9849282209,
+    "latitude": 17.4518,
+    "longitude": 78.68174
+  },
+  {
+    "retailerName": "TECH ZONE ENTERPRISES (Chandanagar)",
+    "retailerArea": "Chanda Nagar",
+    "adderss": "# 5-22- Kamal Complex-Chanda Nagar-Hyderabad",
+    "name": "ROOPSY KSHATRIYAS",
+    "phone": "9032490996, 9032490996",
+    "latitude": 17.4948,
+    "longitude": 78.31852
+  },
+  {
+    "retailerName": "TECHNOVISION SALES AND SERVICES (A S Rao Nagar)",
+    "retailerArea": "(A S Rao Nagar)",
+    "adderss": "1-19-71/5, PLOT NO: 14 SHOP NO 13 PART OF 14 RUKAM COLONY A S RAO NAGAR ,KAPRA, RR DIST-62.",
+    "name": "",
+    "phone": 9121276999,
+    "latitude": 17.48152813,
+    "longitude": 78.5553225
+  },
+  {
+    "retailerName": "TECHNOVISION SALES AND SERVICES (Attapur)",
+    "retailerArea": "(Attapur)",
+    "adderss": "H NO 13 6 431 D 13 MOGHAL NAGAR RINGROAD ATTAPUR - 500028",
+    "name": "",
+    "phone": 9121895999,
+    "latitude": 17.379701,
+    "longitude": 78.429674
+  },
+  {
+    "retailerName": "TECHNOVISION SALES AND SERVICES (Banjara Hills)  Road No-12",
+    "retailerArea": "(Banjara Hills)  Road No-12",
+    "adderss": "SHOP NO: 10 8-2-644/1 BANJARA HILLS ROAD NO 12 HYD-34.",
+    "name": "",
+    "phone": 9121315999,
+    "latitude": 17.40809,
+    "longitude": 78.45004
+  },
+  {
+    "retailerName": "TECHNOVISION SALES AND SERVICES (Banjara Hills) Road No-2",
+    "retailerArea": "(Banjara Hills) Road No-2",
+    "adderss": "SHOP NO: 8-2-272/6 ROAD NO: 2 BANJARA HILLS HYDERABAD-34.",
+    "name": "",
+    "phone": 9121015999,
+    "latitude": 17.42592,
+    "longitude": 78.4356129
+  },
+  {
+    "retailerName": "TECHNOVISION SALES AND SERVICES (Chandanagar)",
+    "retailerArea": "(Chandanagar)",
+    "adderss": "# 3-8 GANGARAM CHANDANAGAR SERILINGAMPALLY R R District - 500019",
+    "name": "",
+    "phone": 9121378999,
+    "latitude": 17.49482,
+    "longitude": 78.33042204
+  },
+  {
+    "retailerName": "TECHNOVISION SALES AND SERVICES (Himayath Nagar)",
+    "retailerArea": "(Himayath Nagar)",
+    "adderss": "G2, MCH 3-6-369/1 HIMAYATH NAGAR HYDERABAD.500029",
+    "name": "",
+    "phone": 9121272999,
+    "latitude": 17.40525,
+    "longitude": 78.4804
+  },
+  {
+    "retailerName": "TECHNOVISION SALES AND SERVICES (Kondapur)",
+    "retailerArea": "(Kondapur)",
+    "adderss": "SHOP NO: 2-14/G KOTHAGUDA KONDAPUR. - 84",
+    "name": "",
+    "phone": 9121274999,
+    "latitude": 17.3683132,
+    "longitude": 78.41314303
+  },
+  {
+    "retailerName": "TECHNOVISION SALES AND SERVICES (Mehdipatnam)",
+    "retailerArea": "(Mehdipatnam)",
+    "adderss": "H. No: 12-2-828/A/4/4, Amba Gardens, Gudimalkapur Road, Mehdipatnam. Hyderabad - 500028",
+    "name": "",
+    "phone": 9121897999,
+    "latitude": 17.38942833,
+    "longitude": 78.4402
+  },
+  {
+    "retailerName": "TECHNOVISION SALES AND SERVICES (Secunderabad)",
+    "retailerArea": "(Secunderabad)",
+    "adderss": "SHOP NO: 3, 1-8-55/3 TIRTHANKAR APARTMENT,  PENDERGHAST ROAD SECUNDERABAD -03.",
+    "name": "",
+    "phone": 9121273999,
+    "latitude": 17.44003,
+    "longitude": 78.48368
+  },
+  {
+    "retailerName": "TECHNOVISION SALES AND SERVICES(MI)",
+    "retailerArea": "Banjara Hills",
+    "adderss": "8/2/644/1/6 Hi Line Complex-Road No.12-BANJARA HILLS",
+    "name": "ALTAF",
+    "phone": 9000500800,
+    "latitude": 17.407939,
+    "longitude": 78.450121
+  },
+  {
+    "retailerName": "TIRUMALA MOBILES (Mallapur)",
+    "retailerArea": "Mallapur",
+    "adderss": "Plot No.4-31- Main Road- Mallapur",
+    "name": "Jonnala Mahesh",
+    "phone": 9966996639,
+    "latitude": 17.44553,
+    "longitude": 78.56708
+  },
+  {
+    "retailerName": "TOKYO-JAPAN CENTRE PRIVATE LIMITED",
+    "retailerArea": "ABIDS",
+    "adderss": "5-4-7-MAHAPRABHU HOUSE-JN ROAD-ABIDS",
+    "name": "SURENDER MOTILAL SURANA",
+    "phone": 9866066339,
+    "latitude": 17.383265,
+    "longitude": 78.476761
+  },
+  {
+    "retailerName": "TRUMO ELECTRONICS INDIA PVT LTD (Kphb)",
+    "retailerArea": "Kukatpally",
+    "adderss": "5-1-68/1/NR-Near BJP Office-Kukatpally Village-Hyderabad",
+    "name": "Dinesh",
+    "phone": 9666443388,
+    "latitude": 17.48329,
+    "longitude": 78.4139
+  },
+  {
+    "retailerName": "VAIBHAV MOBILES(S.D.Road)",
+    "retailerArea": "SD Road",
+    "adderss": "# 10 Surya Kiran Complex- Ground Floor- S.D Road- Secunderabad",
+    "name": "Madhusudhan Asawa",
+    "phone": 9866768047,
+    "latitude": 17.44108,
+    "longitude": 78.49224
+  },
+  {
+    "retailerName": "VEERABHADRA MUSIC CENTRE (CHINTAL)",
+    "retailerArea": "Chintal",
+    "adderss": "OPP SHAH THEATRE-HMT ROAD-CHINTAL",
+    "name": "Neela Suresh",
+    "phone": 8801903666,
+    "latitude": 17.49211,
+    "longitude": 78.45134
+  },
+  {
+    "retailerName": "VIJAYA MOBILE GALLERY (ATTAPUR)",
+    "retailerArea": "Mehdipatnam",
+    "adderss": "H.NO.3-5-100-ATTAPUR- HYDERGUDA",
+    "name": "KOTA SHEKAR",
+    "phone": 8686744143,
+    "latitude": 17.364223,
+    "longitude": 78.42609
+  },
+  {
+    "retailerName": "VIMAL HOME APPLIANCES (Lal Bazar)",
+    "retailerArea": "Trimulgherry",
+    "adderss": "Shop No.268- Lal Bazar-Trimulgherry",
+    "name": "Raj Kumar Barmecha",
+    "phone": 9502036256,
+    "latitude": 17.479205,
+    "longitude": 78.512215
+  },
+  {
+    "retailerName": "VINAAYAKA ELECTRONICS (Kothapet)",
+    "retailerArea": "Kothapet",
+    "adderss": "23-95/1-Krishnaveni Nagar-Near Indus Hospital Gaddinaram-Kothapet",
+    "name": "GEETA RAPERTHI",
+    "phone": 9885303050,
+    "latitude": 17.367664,
+    "longitude": 78.53574
+  },
+  {
+    "retailerName": "VINAYAKA MOBILES & COMPUTERS (KUKATPALLY)",
+    "retailerArea": "Kukatpally",
+    "adderss": "Ground Floor-Plot No.3-5-V/945-OPP:Andhra Bank-Vivekhanandha Nagar-Kukatpally",
+    "name": "Duryanaryana Keella and Katari Manikanta",
+    "phone": 9949898926,
+    "latitude": 17.491534,
+    "longitude": 78.408383
+  }
+]
+        }
+      })
+    </script>
+
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+    var locations = [
+    ["APPLE MOBILES (Kondapur)","9989339909",17.46399,78.36738],
+["AYYAPPA MOBILES (Nizampet)","9618555524",17.52606,78.37006],
+["CITI MOBILE S (VANASTHALIPURAM)","9848299945",17.330722,78.57474],
+["DURGA DIGITAL (S.Road)","9849026058",17.39117,78.51124],
+["FAIZUL MOBILE & ACCESSORIES(B.HILLS)","8978666086",17.40805,78.449928],
+["GLOBAL MOBILE STORE (Dargah)","9849626005",17.41152,78.39665],
+["GOWRI MOBILES (ECIL)","9866660055",17.47402,78.56941],
+["JAI BABA MOBILES (S.Road)","9490318432",17.435577,78.499806],
+["MAHAVEER MOBILE (Jagathgirigutta)","9885749108",17.50228,78.41951],
+["MAHAVEER MOBILE SHOPPE (Narayanguda)","9010190202",17.39684,78.49168],
+["MOBILE . COM","9948695007",17.453192,78.534164],
+["MOBILES 4U (Alkapuri)","9032215528",17.36531,78.5534],
+["MOGHAL COMMUNICATIONS","9177771900",17.39472,78.43769],
+["N4U (Ameerpet)","9030422000",17.4296927,78.448427],
+["OM SRI SAI COMMUNICATIONS (UPPAL)","9533363339",17.40134,78.56701],
+["PADMAJA MOBILES (Kushaiguda)","9849842552",17.4799,78.57494],
+["Pramod mobiles - NPP JM","9849005270",17.391889,78.475319],
+["R V MOBILE (Suraram)","9390001777",17.54099,78.43404],
+["RAJU COMMUNICATION(Ramnagar)","9346281077",17.41011,78.50682],
+["RANGE MOBILES (RTC X Road)","9966537816",17.40694,78.49608],
+["RSB ASSOCIATES (Madhapur)","9885017979",17.4453016,78.3861106],
+["SHREE MOBILES (AMEERPET)","9849960204",17.43586,78.44454],
+["SHREE MOBILES (MALKAJGIRI)","9246886594",17.44942,78.53646],
+["SHREE MOBILES WATCH & GIFTS NOVELTIES (Medchal)","9849792163",17.63022,78.48441],
+["SIMRAN MOBILES (Alwal)","9849838168",17.502035,78.513783],
+["SRI MOBILES (DSNR)","9985997439, 040-40032765",17.36848,78.52165],
+["SRI SAHASRA COMMUNICATION","9550298949",17.34843,78.51636],
+["SRI SAI CSR ENTERPRISES (Shapoornagar)","9985999977",17.501543,78.425927],
+["SRI VENKATESHWARA WATCH & MOBILES (Mothinagar)","8686141516",17.45414,78.42219],
+["SURABHI GIFTS & NOVELTIES (JM)","7013103828",17.391938,78.473458],
+["TIRUMALA MOBILES (Mallapur)","9966996639",17.44553,78.56708],
+["VAIBHAV MOBILES(S.D.Road)","9866768047",17.44108,78.49224],
+["CELL BAY MOBILES ELECTRONICS PVT LTD","9848229960",17.448832,78.386475],
+["OBM-3","7013523209",17.43062,78.51088],
+["OBM","9885318331",17.44191,78.48835],
+["OBM-2","7702008602",17.44176,78.48918],
+["CELL WORLD (OLD CITY)","9912348888",17.39852,78.47238],
+["R.V. MOBILE WORLD (Gandimasamma X Road)","9390129812",17.57552,78.42311],
+["BEST MOBILES","9704669666",17.482123,78.536797],
+["JAGADAMBA SMART MOBILES & WATCH (Kapra)","9866024996",17.47788,78.56349],
+["SVS MOBILES (B N REDDY NAGAR)","9505024365",17.32142,78.56009],
+["VEERABHADRA MUSIC CENTRE (CHINTAL)","8801903666",17.49211,78.45134],
+["TRUMO ELECTRONICS INDIA PVT LTD (Kphb)","9666443388",17.48329,78.4139],
+["HARISH COMMUNICATIONS (Boduppal)","9391234514",17.40755,78.5957],
+["SAPTHAGIRI TELE SERVICES (Balkampet)","9399991123",17.44946,78.44992],
+["NEW MOVIE PLANET (Old City)","9848250623",17.358769,78.474224],
+["SRI VENKATESHWARA ELECTRONICS & MOBILE CENTRE (IBPM)","9949800486",17.19168,78.64717],
+["NEW GLOBAL COMMUNICATION(Himayatnagar)","8121631195",17.40063,78.49048],
+["FAIZULS MOBILE SOLUTIONS (JM)","9000955101",17.39236,78.47435],
+["MAHESH MOBILES (Abdullapurmet)","9030308076",17.31011,78.68676],
+["CELL PLUS (Old City)","9848316390",17.34259,78.46586],
+["RAGHAVENDRA MOBILES (Balapur)","7013599952",17.31868,78.51991],
+["RAINBOW MOBILES (Kothapet)","9000272664",17.366129,78.539823],
+["ROMALS MOBILES AND ELECTRONICS","9010000008",17.39184,78.47483],
+["SRI SANGEETHA MOBILES (Moosapet)","9700101112",17.46931,78.4229],
+["SRI SAI NETHRA MOBILES AND COMMUNICATIONS(KPHB)","9908511110",17.50158,78.3891],
+["TECHNOVISION SALES AND SERVICES(MI)","9000500800",17.407939,78.450121],
+["NEW BRIGHT MOBILES (Kondapur)","9908648496",17.46127,78.352813],
+["ASK MOBILES (Hyderguda)","9885418328",17.39906,78.48028],
+["INLINE MOBILES (Tirmulgherry)","9885347837",17.46874,78.50754],
+["MAPPLE MOBILES (Bowenpally)","9591843555",17.46583,78.48299],
+["SAMBHAV MOBILES (DSNR)","9963898888",17.40986,78.479666],
+["SRI SAI BALAJI MOBILES (Habsiguda)","9848983911",17.408831,78.5440123],
+["NIRMAL THE MOBILE STORE (Shapur Nagar)","9293909179",17.5149,78.44725],
+["SALUTE MOBILES (Panjagutta)","7013604140,  9701666786",17.424417,78.453289],
+["S.V. MOBILES (Chilkanagar)","9640986898,  9494967394",17.4212415,78.5645023],
+["NEXUS MOBILES (Ramanthapur)","8500067860",17.39576,78.52761],
+["SRI DHANA LAKSHMI ENTERPRISES (Jagathgirigutta)","8686868652",17.50162,78.42623],
+["JAGADAMBA ELECTRONICS & MOBILES (Kattedan)","9032882733",17.31161,78.43887],
+["TARANGA CELL WORLD (Ghatkesar)","9849282209",17.4518,78.68174],
+["SRI GOPI ENTERPRISES(DSNR)","9849154522",17.36819,78.53295],
+["SSV SAPTHAGIRI MOBILES(YOUSUFGUDA)","9030000008",17.4312386,78.4257747],
+["ANAND TRADING CO (Tarnaka)","9866436391",17.42902,78.53327],
+["LEAD ENTERPRISES (Kukatpally)","9100072554",17.3463,78.5081],
+["AL-NAAZ COMMUNICATIONS(GHANSI BAZAR)","9849898047",17.367019,78.468686],
+["A.S.MOBILES STORE (Manikonda)","9963102102",17.40279,78.37754],
+["SRI ANJANEYA MOBILE (NANAKRAM GUDA)","9618661997",17.42027,78.35073],
+["OM ENTERPRISES(MADHAPUR)","9948004462",17.4402335,78.3948009],
+["SVR TELECOM SERVICES (TILAK NAGAR)","8801121212",17.39651,78.50428],
+["APARNA MOBILES (Yousufguda)","9848492068",17.43605,78.43399],
+["SRI STANDARD MOBILES (Secbad)","9293951123, 9246245511",17.44233,78.49645],
+["TECH ZONE ENTERPRISES (Chandanagar)","9032490996, 9032490996",17.4948,78.31852],
+["MOBILE SHOPPE (Kachiguda)","9885887865",17.3916,78.48799],
+["NEW SHIVA MOBILES (Neredmet)","9391598999",17.467651,78.53904],
+["MAX MOBILE (Langer House)","9885201285",17.38029,78.42133],
+["SIMRAN MOBILES (Siddiamber Bazar)","9885525353",17.377722,78.4751],
+["SRI NIDHI MOBILES(HAYATH NAGAR)","9542969636",17.32708,78.60436],
+["DURYA MOBILES (SHAIKPET)","8886632011",17.40533,78.40484],
+["MAXELL TIMES (Station Road)","9885118585",17.435017,78.50587],
+["SAMYUKTHA MOBILES STORE (KUKATPALLY)","9100012349",17.497803,78.3951],
+["NEW PARAS MOBILES (AMEERPET)","9032627861",17.4370711,78.4456393],
+["SVS MOBILES & ELECTRONICS (B N REDDY NAGAR)","9505024365",17.3226338624954,78.55809331],
+["NEW PARAS MOBILES (S.R.NAGAR)","9032627861",17.4448739,78.4466292],
+["RANAJI MOBILES (Gachibowli)","8501944186",17.4410233,78.3598164],
+["ANJALI COMMUNICATIONS (BOWENPALLY)","9177617407, 9951594317",17.468788,78.494765],
+["SRI DHANALAKSHMI ENTERPRISES (Gandimaisamma X Road)"," PRAVEEN M NO 9700111180",17.574553,78.423487],
+["NEW RAMDEV MOBILES (Lothkunta)","9160123122",17.493455,78.512656],
+["ROOPAM ELECTRONICS & APPLIANCES (Moula Ali)","9246361692",17.461573,78.559021],
+["JAMKHANI MOBILES (BANJARA HILLS)","9030870786 , 9347177771",17.409937,78.45264],
+["SRI ANJANEYA MOBILES (Lingampally)","8374393855",17.477454,78307973],
+["VIMAL HOME APPLIANCES (Lal Bazar)","9502036256",17.479205,78.512215],
+["VINAYAKA MOBILES & COMPUTERS (KUKATPALLY)","9949898926",17.491534,78.408383],
+["VIJAYA MOBILE GALLERY (ATTAPUR)","8686744143",17.364223,78.42609],
+["M.B MOBILE STORE (Attapur)","9296808229",17.370827,78.429569],
+["PARAS MOBILE & SERVICES (NACHARAM)","8686221071",17.429806,78.552385],
+["SMART HUB (SHAMSHABAD)","9393850439 , 8919368558",17.26307,78.38851],
+["SHAH ELECTRONICS & HOME APPLIANCES PVT LTD(RP ROAD)","9885800002",17.4349479,78.4928676],
+["SAI VEERABHADRA ELECTRONICS (Chinthal)","9030120120",17.49256,78.45139],
+["SREE PIRGAL ELECTRONICS(kukatpally)","9849062244",17.494379,78.399503],
+["SRI SRINIVASA ELECTRONICS (Ecil)","9030284498",17.47752,78.562452],
+["VINAAYAKA ELECTRONICS (Kothapet)","9885303050",17.367664,78.53574],
+["PIRGAL'S HOUSE OF ELECTRONICS & HOME APLLIANCES","9849550478",17.437023,78.494196],
+["OM SAI ELECTRONICS & HOME APPLIANCES","9912605464",17.453649,78.420715],
+["ADITH ELECTRONICS(Ameerpet)","9246150400",17.541052,78.452068],
+["TOKYO-JAPAN CENTRE PRIVATE LIMITED","9866066339",17.383265,78.476761],
+["AMBA BHAVANI ELECTRONICS","9949008883",17.37836,78.42031],
+["SINGAPORE CENTRE(KOTI)","9848731151",17.384821,78.482918],
+["ROHIT ELECTRONICS & HOME APPLIANCES","9700276373",17.399313,78.446932],
+["PREM ELECTRONICS (C.PALLY)","9032559390, 9550359382",17.404929,78.495574],
+["CELLBAY -KOMPALLY"," ",17.5130817,78.4799256],
+["CELLBAY-ASHOKNAGAR"," ",17.50454206,78.30895431],
+["CELLBAY-BEERAMGUDA"," ",17.50920212,78.30067028],
+["CELLBAY -BODUPPAL"," ",17.406071,78.591927],
+["CELLBAY -CHANDANAGAR 2"," ",17.4945512,78.3190405],
+["CELLBAY-CHANDANAGAR"," ",17.495228,78.327287],
+["CELLBAY-GACHIBOWLI"," ",17.4414536,78.3600531],
+["CELLBAY -ISNAPUR"," ",17.5459854,78.2120061],
+["CELLBAY-KPHB"," ",17.4947778,78.4007399],
+["CELLBAY-LBNAGAR"," ",17.3465467999999,78.5503806999999],
+["CELLBAY- LINGAMPALLY"," ",17.4930777,78.3155325],
+["CELLBAY -MALLAPUR"," ",17.4457649,78.567958],
+["CELLBAY -NACHARAM"," ",17.4231997920165,78.5461380332708],
+["CELLBAY- NEREDMET"," ",17.4816822,78.5367265],
+["CELLBAY -PATANCHERU"," ",17.5299852,78.2651413],
+["TECHNOVISION SALES AND SERVICES (Banjara Hills)  Road No-12","9121315999",17.40809,78.45004],
+["TECHNOVISION SALES AND SERVICES (Banjara Hills) Road No-2","9121015999",17.42592,78.4356129],
+["TECHNOVISION SALES AND SERVICES (Secunderabad)","9121273999",17.44003,78.48368],
+["TECHNOVISION SALES AND SERVICES (Kondapur)","9121274999",17.3683132,78.41314303],
+["TECHNOVISION SALES AND SERVICES (Mehdipatnam)","9121897999",17.38942833,78.4402],
+["TECHNOVISION SALES AND SERVICES (Himayath Nagar)","9121272999",17.40525,78.4804],
+["TECHNOVISION SALES AND SERVICES (A S Rao Nagar)","9121276999",17.48152813,78.5553225],
+["TECHNOVISION SALES AND SERVICES (Chandanagar)","9121378999",17.49482,78.33042204],
+["TECHNOVISION SALES AND SERVICES (Attapur)","9121895999",17.379701,78.429674],
+];
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 12,
+      center: new google.maps.LatLng(17.4947778,78.4007399),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) { 
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][2], locations[i][3]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent("<p style='text-align: center; color: black; padding: 1em'>" + locations[i][0] + "<br />" +  locations[i][1] );
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+  </script>

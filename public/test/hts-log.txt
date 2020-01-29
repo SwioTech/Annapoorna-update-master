@@ -1,0 +1,115 @@
+HTTrack3.49-2 launched on Fri, 16 Aug 2019 14:01:44 at https://www.mi.com/in/
+(httrack https://www.mi.com/in/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:01:46	Warning: 	Note: due to https://www.mi.com remote robots.txt rules, links beginning with these path will be forbidden: /*?*, /?*, /search_*, /item/, /comment/, /accessories/, /cart/, /misc/ (see in the options to disable this)
+14:04:01	Warning: 	Moved Temporarily for https://www.mi.com/in/service/preorder/
+14:04:01	Warning: 	File has moved from https://www.mi.com/in/service/preorder/ to https://promo.mi.com/webfile/globalweb/in/404.html
+14:04:05	Warning: 	Moved Permanently for https://www.mi.com/in/redmi-note7/?RNType=product&product_id=redmi-note7
+14:04:05	Warning: 	File has moved from https://www.mi.com/in/redmi-note7/?RNType=product&product_id=redmi-note7 to https://www.mi.com/in/redmi-note-7/?RNType=product&product_id=redmi-note7
+14:04:18	Warning: 	Moved Permanently for https://www.mi.com/in/tvspeaker/
+14:04:18	Warning: 	File has moved from https://www.mi.com/in/tvspeaker/ to https://www.mi.com/in/mi-soundbar/
+14:04:18	Warning: 	Moved Permanently for https://www.mi.com/in/mi-led-smart-tv-4-55-pro/
+14:04:18	Warning: 	File has moved from https://www.mi.com/in/mi-led-smart-tv-4-55-pro/ to https://www.mi.com/in/mi-led-smart-tv-4-pro-55/
+14:04:18	Warning: 	Moved Permanently for https://www.mi.com/in/mi-led-smart-tv-4c-32-pro/
+14:04:18	Warning: 	File has moved from https://www.mi.com/in/mi-led-smart-tv-4c-32-pro/ to https://www.mi.com/in/mi-led-smart-tv-4c-pro-32/
+14:04:26	Warning: 	Moved Permanently for https://www.mi.com/in/mi-led-smart-tv-4a-49-pro/
+14:04:26	Warning: 	File has moved from https://www.mi.com/in/mi-led-smart-tv-4a-49-pro/ to https://www.mi.com/in/mi-led-smart-tv-4a-pro-49/
+14:04:39	Warning: 	Moved Temporarily for www.mi.com/robots.txt
+14:04:39	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/robots.txt and https://www.mi.com/robots.txt
+14:04:39	Warning: 	Warning moved treated for www.mi.com/robots.txt (real one is https://www.mi.com/robots.txt)
+14:04:39	Warning: 	Moved Temporarily for www.mi.com/in/redmi-note-5-pro/
+14:04:39	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/redmi-note-5-pro/ and https://www.mi.com/in/redmi-note-5-pro/
+14:04:39	Warning: 	File has moved from www.mi.com/in/redmi-note-5-pro/ to https://www.mi.com/in/redmi-note-5-pro/
+14:04:39	Warning: 	Moved Temporarily for www.mi.com/in/mi-led-smart-tv-4a-43/
+14:04:39	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/mi-led-smart-tv-4a-43/ and https://www.mi.com/in/mi-led-smart-tv-4a-43/
+14:04:39	Warning: 	File has moved from www.mi.com/in/mi-led-smart-tv-4a-43/ to https://www.mi.com/in/mi-led-smart-tv-4a-43/
+14:04:39	Warning: 	Moved Temporarily for www.mi.com/in/mi-router-3c/
+14:04:39	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/mi-router-3c/ and https://www.mi.com/in/mi-router-3c/
+14:04:39	Warning: 	File has moved from www.mi.com/in/mi-router-3c/ to https://www.mi.com/in/mi-router-3c/
+14:04:39	Warning: 	Moved Temporarily for www.mi.com/in/air2s/features/
+14:04:39	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/air2s/features/ and https://www.mi.com/in/air2s/features/
+14:04:39	Warning: 	File has moved from www.mi.com/in/air2s/features/ to https://www.mi.com/in/air2s/features/
+14:04:39	Warning: 	Moved Temporarily for www.mi.com/in/air2s/filter/
+14:04:39	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/air2s/filter/ and https://www.mi.com/in/air2s/filter/
+14:04:39	Warning: 	File has moved from www.mi.com/in/air2s/filter/ to https://www.mi.com/in/air2s/filter/
+14:04:39	Warning: 	Moved Temporarily for www.mi.com/in/air2s/specs/
+14:04:39	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/air2s/specs/ and https://www.mi.com/in/air2s/specs/
+14:04:39	Warning: 	File has moved from www.mi.com/in/air2s/specs/ to https://www.mi.com/in/air2s/specs/
+14:04:39	Warning: 	Moved Temporarily for www.mi.com/in/air2s/review/
+14:04:39	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/air2s/review/ and https://www.mi.com/in/air2s/review/
+14:04:39	Warning: 	File has moved from www.mi.com/in/air2s/review/ to https://www.mi.com/in/air2s/review/
+14:04:39	Warning: 	Moved Temporarily for www.mi.com/in/max2/
+14:04:39	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/max2/ and https://www.mi.com/in/max2/
+14:04:39	Warning: 	File has moved from www.mi.com/in/max2/ to https://www.mi.com/in/max2/
+14:04:39	Warning: 	Moved Temporarily for www.mi.com/in/mi-a1/
+14:04:39	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/mi-a1/ and https://www.mi.com/in/mi-a1/
+14:04:39	Warning: 	File has moved from www.mi.com/in/mi-a1/ to https://www.mi.com/in/mi-a1/
+14:04:39	Warning: 	Moved Temporarily for www.mi.com/in/redmi-5a/
+14:04:39	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/redmi-5a/ and https://www.mi.com/in/redmi-5a/
+14:04:39	Warning: 	File has moved from www.mi.com/in/redmi-5a/ to https://www.mi.com/in/redmi-5a/
+14:04:39	Warning: 	Moved Temporarily for www.mi.com/in/service/online/
+14:04:39	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/service/online/ and https://www.mi.com/in/service/online/
+14:04:39	Warning: 	File has moved from www.mi.com/in/service/online/ to https://www.mi.com/in/service/online/
+14:04:46	Warning: 	Moved Temporarily for https://www.mi.com/in/miprotect/
+14:04:46	Warning: 	File has moved from https://www.mi.com/in/miprotect/ to https://promo.mi.com/webfile/globalweb/in/404.html
+14:04:46	Warning: 	Moved Temporarily for https://www.mi.com/in/miextendedwarranty/
+14:04:46	Warning: 	File has moved from https://www.mi.com/in/miextendedwarranty/ to https://promo.mi.com/webfile/globalweb/in/404.html
+14:04:47	Warning: 	Moved Temporarily for www.mi.com/in/redmi-note7/
+14:04:47	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/redmi-note7/ and https://www.mi.com/in/redmi-note7/
+14:04:47	Warning: 	File has moved from www.mi.com/in/redmi-note7/ to https://www.mi.com/in/redmi-note7/
+14:04:47	Warning: 	Moved Temporarily for www.mi.com/in/redmi-6/specs/
+14:04:47	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/redmi-6/specs/ and https://www.mi.com/in/redmi-6/specs/
+14:04:47	Warning: 	File has moved from www.mi.com/in/redmi-6/specs/ to https://www.mi.com/in/redmi-6/specs/
+14:04:47	Warning: 	Moved Temporarily for www.mi.com/in/redmi-6/accessories/
+14:04:47	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/redmi-6/accessories/ and https://www.mi.com/in/redmi-6/accessories/
+14:04:47	Warning: 	File has moved from www.mi.com/in/redmi-6/accessories/ to https://www.mi.com/in/redmi-6/accessories/
+14:04:47	Warning: 	Moved Temporarily for www.mi.com/in/redmi-6/faq/
+14:04:47	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/redmi-6/faq/ and https://www.mi.com/in/redmi-6/faq/
+14:04:47	Warning: 	File has moved from www.mi.com/in/redmi-6/faq/ to https://www.mi.com/in/redmi-6/faq/
+14:04:47	Warning: 	Moved Temporarily for www.mi.com/in/redmi-6/review/
+14:04:47	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/redmi-6/review/ and https://www.mi.com/in/redmi-6/review/
+14:04:47	Warning: 	File has moved from www.mi.com/in/redmi-6/review/ to https://www.mi.com/in/redmi-6/review/
+14:05:01	Warning: 	Moved Temporarily for https://www.mi.com/in/specs/
+14:05:01	Warning: 	File has moved from https://www.mi.com/in/specs/ to https://promo.mi.com/webfile/globalweb/in/404.html
+14:05:13	Warning: 	Moved Temporarily for https://www.mi.com/in/miband2/www.mi.com/in/mi-band-hrx/
+14:05:13	Warning: 	File has moved from https://www.mi.com/in/miband2/www.mi.com/in/mi-band-hrx/ to https://promo.mi.com/webfile/globalweb/in/404.html
+14:05:17	Warning: 	Moved Temporarily for https://www.mi.com/in/redminote5pro/accessories/
+14:05:17	Warning: 	File has moved from https://www.mi.com/in/redminote5pro/accessories/ to https://promo.mi.com/webfile/globalweb/in/404.html
+14:05:18	Warning: 	Moved Temporarily for www.mi.com/in/events/explorers/summarize/
+14:05:18	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/events/explorers/summarize/ and https://www.mi.com/in/events/explorers/summarize/
+14:05:18	Warning: 	File has moved from www.mi.com/in/events/explorers/summarize/ to https://www.mi.com/in/events/explorers/summarize/
+14:05:18	Warning: 	Moved Temporarily for www.mi.com/in/mi4i/
+14:05:18	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/mi4i/ and https://www.mi.com/in/mi4i/
+14:05:18	Warning: 	File has moved from www.mi.com/in/mi4i/ to https://www.mi.com/in/mi4i/
+14:05:18	Warning: 	Moved Temporarily for www.mi.com/in/mi4/
+14:05:18	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/mi4/ and https://www.mi.com/in/mi4/
+14:05:18	Warning: 	File has moved from www.mi.com/in/mi4/ to https://www.mi.com/in/mi4/
+14:05:18	Warning: 	Moved Temporarily for www.mi.com/in/noteprime/
+14:05:18	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/noteprime/ and https://www.mi.com/in/noteprime/
+14:05:18	Warning: 	File has moved from www.mi.com/in/noteprime/ to https://www.mi.com/in/noteprime/
+14:05:18	Warning: 	Moved Temporarily for www.mi.com/in/redmi2/
+14:05:18	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/redmi2/ and https://www.mi.com/in/redmi2/
+14:05:18	Warning: 	File has moved from www.mi.com/in/redmi2/ to https://www.mi.com/in/redmi2/
+14:05:18	Warning: 	Moved Temporarily for www.mi.com/in/mipad/
+14:05:18	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/mipad/ and https://www.mi.com/in/mipad/
+14:05:18	Warning: 	File has moved from www.mi.com/in/mipad/ to https://www.mi.com/in/mipad/
+14:05:18	Warning: 	Moved Temporarily for www.mi.com/in/miband/
+14:05:18	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/miband/ and https://www.mi.com/in/miband/
+14:05:18	Warning: 	File has moved from www.mi.com/in/miband/ to https://www.mi.com/in/miband/
+14:05:18	Warning: 	Moved Temporarily for www.mi.com/in/powerbank/
+14:05:18	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/powerbank/ and https://www.mi.com/in/powerbank/
+14:05:18	Warning: 	File has moved from www.mi.com/in/powerbank/ to https://www.mi.com/in/powerbank/
+14:05:18	Warning: 	Moved Temporarily for www.mi.com/in/service/doubledata/
+14:05:18	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/service/doubledata/ and https://www.mi.com/in/service/doubledata/
+14:05:18	Warning: 	File has moved from www.mi.com/in/service/doubledata/ to https://www.mi.com/in/service/doubledata/
+14:05:18	Warning: 	Moved Temporarily for www.mi.com/in/service/payumoney/
+14:05:18	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mi.com/in/service/payumoney/ and https://www.mi.com/in/service/payumoney/
+14:05:18	Warning: 	File has moved from www.mi.com/in/service/payumoney/ to https://www.mi.com/in/service/payumoney/
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 35 seconds : 300 links scanned, 261 files written (24167263 bytes overall) [5096798 bytes received at 23706 bytes/sec], 24167263 bytes transferred using HTTP compression in 261 files, ratio 20%, 11.9 requests per connection
+(No errors, 104 warnings, 0 messages)
